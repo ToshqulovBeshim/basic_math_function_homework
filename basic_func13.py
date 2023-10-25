@@ -1,4 +1,4 @@
-def main(a):
+def main(a,b):
     '''find the square root of a number and return it.
     
     Args:
@@ -7,4 +7,5 @@ def main(a):
     Returns:
         float: the absolute value.
     '''
-    return
+    return a//b
+print(main(11,2))
